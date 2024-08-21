@@ -1,0 +1,46 @@
+.card {
+  display: flex;
+  max-width: 90vw;
+  border-radius: 1rem;
+
+  background-color: var(--background-color-secondary-dark);
+  box-shadow: var(--attention-color-light) 1px 5px 10px 0px;
+}
+
+.screenShot {
+  width: 50%;
+  height: auto;
+  border-radius: 1rem 0 0 1rem;
+}
+
+.cardTextArea {
+  padding: 1rem;
+  white-space: pre-line;
+}
+
+.cardHeadline {
+  margin: 0;
+  padding: 0;
+}
+
+.cardText {
+  /* font-style: italic; */
+}
+
+@media screen and (max-width: 600px) {
+  .card {
+    flex-direction: column;
+  }
+
+  .screenShot {
+    width: 100%;
+    height: auto;
+    border-radius: 1rem 1rem 0 0;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .card {
+    background-color: var(--background-color-secondary-light);
+  }
+}

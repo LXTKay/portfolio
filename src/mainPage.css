@@ -1,0 +1,29 @@
+.header {
+  background-color: var(--attention-color);
+  text-shadow: 0rem 0rem .5rem rgb(0, 0, 0, 0.5);
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 1rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 2rem;
+  margin: 2rem;
+}
+
+.footer {
+  background-color: var(--attention-color-light);
+  height: 2rem;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
