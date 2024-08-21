@@ -10,7 +10,7 @@ const card = {
 
   Anmerkung:
   Es kann zur eingeschränkten Funktionalität kommen, wenn Sie es ausprobieren, da \
-  da ich einen kostenlosen Host für die Datenbank nutzte.`,
+  ich einen kostenlosen Host für die Datenbank nutzte.`,
   githubLink: "https://github.com/LXTKay/photoTaggingApp",
   liveLink: "https://delightful-nervous-butternut.glitch.me/"
 };

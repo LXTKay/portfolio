@@ -4,7 +4,7 @@
   border-radius: 1rem;
 
   background-color: var(--background-color-secondary-dark);
-  box-shadow: var(--attention-color-light) 1px 5px 10px 0px;
+  box-shadow: rgba(255, 119, 167, 0.433) 1px 5px 10px 0px;
 }
 
 .screenShot {
@@ -25,6 +25,12 @@
 
 .cardText {
   /* font-style: italic; */
+}
+
+.linkContainer {
+  display: flex;
+  align-items: center;
+
 }
 
 @media screen and (max-width: 600px) {
