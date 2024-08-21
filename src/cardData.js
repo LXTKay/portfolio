@@ -9,6 +9,17 @@ import memory from "./cardData/memory.js"
 import cv from "./cardData/cv.js"
 import battleShips from "./cardData/battleShips.js"
 import testingPractice from "./cardData/testingPractice.js"
+import knight from "./cardData/knight.js"
+import toDoList from "./cardData/toDoList.js"
+import pizza from "./cardData/pizza.js"
+import tictactoe from "./cardData/tictactoe.js"
+import book from "./cardData/book.js"
+import dashboard from "./cardData/dashboard.js"
+import form from "./cardData/form.js"
+import sketch from "./cardData/sketch.js"
+import ching from "./cardData/ching.js"
+import landing from "./cardData/landing.js"
+import website from "./cardData/website.js"
 
 const cardData = [
   photoTaggingApp,
@@ -21,7 +32,18 @@ const cardData = [
   memory,
   cv,
   battleShips,
-  testingPractice
+  testingPractice,
+  knight,
+  toDoList,
+  pizza,
+  tictactoe,
+  book,
+  dashboard,
+  form,
+  sketch,
+  ching,
+  landing,
+  website
 ];
 
 export default cardData;

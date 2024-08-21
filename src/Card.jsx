@@ -22,7 +22,7 @@ function Card({ src, headline, text, githubLink, liveLink }) {
             path={mdiEarth}
             size={1}
             color="gray" />
-          <a href={liveLink} target="_blank" rel="noopener noreferrer">Live Preview</a>
+          <a href={liveLink} target="_blank" rel="noopener noreferrer">Live View</a>
         </div> : null}
       </div>
     </div>
