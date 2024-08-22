@@ -1,4 +1,4 @@
-import imgURL from "./screenshots/library.png";
+import imgURL from "./screenshots/library.jpg";
 
 const card = {
   src: imgURL,

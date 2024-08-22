@@ -5,6 +5,13 @@
 
   background-color: var(--background-color-secondary-dark);
   box-shadow: rgba(255, 119, 167, 0.433) 1px 5px 10px 0px;
+
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transition: transform 0.3s;
+  transform: scale(1.01);
 }
 
 .screenShot {
@@ -33,7 +40,7 @@
 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 720px) {
   .card {
     flex-direction: column;
   }
