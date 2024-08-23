@@ -1,6 +1,7 @@
 .card {
   display: flex;
   max-width: 90vw;
+  width: 90vw;
   border-radius: 1rem;
 
   background-color: var(--background-color-secondary-dark);
